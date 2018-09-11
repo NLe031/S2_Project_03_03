@@ -110,13 +110,21 @@ article h2 {
     font-size: 1.4em;
 }
 
-article p::first-letter {
+article p:first-of-type::first-letter {
     font-size: 2em;
+    vertical-align: baseline;
 }
 
-article
-
 /* Aside Styles */
+aside {
+    font-size: 0.9em;
+}
+
+aside h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
 /* Footer Styles */
 footer {
     color: white;
